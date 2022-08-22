@@ -14,7 +14,7 @@ class Ingredient:
     # tako da bi lahko eno izrazili, recimo, z grami, drugo pa z
     # nestandardnimi enotai, recimo "zlicka", "cup" ali podobno
     def have_enough(required_ingredient):
-        return amount >= required_ingredient.amount
+        return self.amount >= required_ingredient.amount
         
     def __init__(self, tokens):
        
@@ -176,11 +176,11 @@ class Cookbook:
 
 
                             
-# ustvari novo kuharsko knjigo...
-a = Cookbook('MyRecipes')
+# # ustvari novo kuharsko knjigo...
+# a = Cookbook('MyRecipes')
 
-# ... jo preberi iz datoteke
-a.from_file_read('recepti.txt')
+# # ... jo preberi iz datoteke
+# a.from_file_read('recepti.txt')
 
-# ... in izpisi na konzolo
-print(a)
+# # ... in izpisi na konzolo
+# print(a)
