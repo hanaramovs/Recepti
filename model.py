@@ -1,5 +1,5 @@
-from dis import Instruction
-import os
+#from dis import Instruction
+#import os
 from enum import Enum
 from secrets import token_urlsafe
 
@@ -104,7 +104,7 @@ class Cookbook:
         # recept ki se trenutno bere
         current_recipe = None
 
-        # priporocam uporabo "with" ki sam zapre datoteko ali kaksen
+        # "with" sam zapre datoteko ali kaksen
         # drugi resource ko se konca koda v bloku
         with open(file_name, 'r') as fp:
 
@@ -146,11 +146,7 @@ class Cookbook:
                         else:
                             current_recipe.instructions += line
                             
-    # get_doable je kar member metoda razreda Cookbook. Zakaj member metoda? Glede na to da objekt Cookbook vsebuje
-    # listo receptov, in da se vprasanje omejuje na to listo receptov je  to najbolj smiselno, a ne?
-    # sama metoda pa uporablja "deli in vladaj" pristop ... pravzaprav se noce ukvarjati z vprasanjem kdaj je konkreten
-    # recept izvedljiv s sestavinami ki so na voljo, ampak jo samo zanima ali je izvedljiv ... zato odgovor na vprasanje
-    # o izvedljivosti prepusca receptu samemu:
+
     def get_doable(self, list_of_ingredients):
 
         response = []      # zacnemo s prazno listo receptov; ce noben ni izvedljiv je to kar odgovor
@@ -159,28 +155,5 @@ class Cookbook:
                 response.append(recipe)
 
         return response
-    # konec: vidis kako preprosto je to???
+    # konec
  
-                            
-#def Cookbook.get_doable(list_of_ingredients):
-#    list_of_ingredients = Ingredient(tokens)
-#
-#    if self.name != Recepie(self.ingredients[0:2]):
-#        break
-#    elif self.name == Recepie(self.ingredients[0:2]) 
-#        & self.unit == Recepie(self.ingredients[-1])
-#        & self.amount >= Recepie(self.ingredients[-2]):
-#
-#        Cookbook(self.recepies).append(Recepie(self.name))
-
-
-
-                            
-# # ustvari novo kuharsko knjigo...
-# a = Cookbook('MyRecipes')
-
-# # ... jo preberi iz datoteke
-# a.from_file_read('recepti.txt')
-
-# # ... in izpisi na konzolo
-# print(a)
