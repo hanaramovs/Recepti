@@ -1,5 +1,27 @@
+h1 {
+    text-align: center;
+    font-size: 40pt 
+}
+
 blockquote {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: x-large;
-    color: #888
+    color: rgb(180, 133, 133)
 }
+
+input[type=text] {
+    width: 25%;
+    padding: 11px 11px;
+    margin: 6px 0;
+    box-sizing: border-box;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #83766c;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
