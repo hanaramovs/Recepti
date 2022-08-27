@@ -1,7 +1,7 @@
-from dis import Instruction
+#from dis import Instruction
 #import os
 from enum import Enum
-from secrets import token_urlsafe
+#from secrets import token_urlsafe
 
 
 class Ingredient:
@@ -15,7 +15,7 @@ class Ingredient:
     # tako da bi lahko eno izrazili, recimo, z grami, drugo pa z
     # nestandardnimi enotai, recimo "zlicka", "cup" ali podobno
     def have_enough(required_ingredient):
-        return self.amount >= required_ingredient.amount
+        return Ingredient.amount >= required_ingredient.amount
         
     def __init__(self, tokens):
        
