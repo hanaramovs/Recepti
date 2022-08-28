@@ -3,7 +3,9 @@
     <head>
         <meta charset="UTF-8">
         <title>Konfigurator receptov</title>
-        <link rel="stylesheet" href="base design.css"><link>
+        <!-- <link rel="stylesheet" href="base design.css"><link> -->
+        <link rel="icon" href="/static/chess_icon.ico">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
     </head>
 
     <body>
@@ -19,12 +21,12 @@
        
         <form>
             <label for="ingredient_name">Sestavina:</label><br>
-            <input type="text" id="ngredient_name" name="ngredient_name"><br>
+            <input type="text" id="ingredient_name" name="ingredient_name"><br>
             <label for="amount">Količina:</label><br>
             <input type="text" id="amount" name="amount"><br>
             <label for="time">Čas:</label><br>
             <input type="text" id="time" name="time"><br>
-            <input type="submit" value="Potrdi"><br>
+            <input class = "button is-link" type="submit" value="Potrdi"><br>
             
         </form>
 

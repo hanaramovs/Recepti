@@ -1,5 +1,5 @@
-import model
 import bottle
+import model
 
 
 @bottle.get('/')

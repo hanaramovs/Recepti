@@ -1,7 +1,7 @@
-#from dis import Instruction
-#import os
+from dis import Instruction
+import os
 from enum import Enum
-#from secrets import token_urlsafe
+from secrets import token_urlsafe
 
 
 class Ingredient:
