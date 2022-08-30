@@ -11,9 +11,7 @@ class Ingredient:
         self.unit = unit
 
     # predpostavimo da so enote vedno enake, torej nas zanima samo
-    # kolicina. Dodatna komplikacija bi bila dodati pretvorni enot,
-    # tako da bi lahko eno izrazili, recimo, z grami, drugo pa z
-    # nestandardnimi enotai, recimo "zlicka", "cup" ali podobno
+    # kolicina. 
     def have_enough(required_ingredient):
         return Ingredient.amount >= required_ingredient.amount
         
