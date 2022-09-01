@@ -5,17 +5,17 @@ Sestavine:
 moka 150 g
 mleko 6 dcl
 jajca 3 kos
-maslo 125 g
+maslo 100 g
 
 Koraki:
 
-- ubij jajca v srednje veliko skledo
-- dodaj mleko in premešaj
-- postopoma dodajaj moko, pri tem konstantno mešaj
-- na štedilniku v ponvi sergej košček masla na visoki temperaturi in počakaj da se stopi in zagreje
-- na ponev vlij eno zajemalko prej pripravljene mase in jo enakomerno razporedi po ponvi
-- peci približno pol minute na eni strani, dokler masa ne zakrkne, potem jo obrni in peci še na drugi strani
-- proces ponavljaj, dkler ti mase ne zmanjka
+- v srednje veliko skledo ubijemo jajaca
+- dodamo mleko in premešamo
+- postopoma dodajamo moko, pri tem konstantno mešamo
+- na štedilniku v ponvi sergejmo košček masla na visoki temperaturi in počakamo, da se stopi in zagreje
+- na ponev vlijemo eno zajemalko prej pripravljene mase in jo enakomerno razporedimo po ponvi
+- pečemo približno pol minute na eni strani, dokler masa ne zakrkne, potem jo obrnemo in pečemo še na drugi strani
+- proces ponavljamo, dkler mase ne zmanjka
 
 ================================
 
@@ -32,13 +32,13 @@ maslo 125 g
 
 Koraki:
 
-- loči rumenjake od beljakov
-- v skledo daj rumenjake, zmehčano maslo, in sledkor in dobro premešaj. nato dodaj mleko in ponovno premešaj.
-- v ločeni skledi presej skupaj kakav, moko in prašek za vzhajanje
-- v tretji skledi z električnim mešelcem zmešaj beljake
-- v prvo skledo, dodaj najprej suhe sestavine, in ko so te popolnoma vmešanje nežno vmešaj v maso še sneg beljakov. 
-- maso nalij v namaščen pekač.
-- peci pri temperaturi 180°C približno 45 minut
+- ločimo rumenjake od beljakov
+- v skledo damo rumenjake, zmehčano maslo, in sledkor in dobro premešamo. nato dodamo mleko in ponovno premešamo.
+- v ločeni skledi presejemo skupaj kakav, moko in prašek za vzhajanje
+- v tretji skledi z električnim mešelcem zmešamo beljake
+- v prvo skledo, dodamo najprej suhe sestavine, in ko so te popolnoma vmešane nežno vmešamo v maso še sneg beljakov. 
+- maso nalijemo v namaščen pekač.
+- pečemo pri temperaturi 180°C približno 45 minut
 
 ================================
 
@@ -80,16 +80,40 @@ sladkor 70g
 
 Koraki:
 
-- ubij jajca v srednje veliko skledo
-- dodaj sladkor in penasto vmešaj
-- v posebni posodi stopi maslo 
-- stopljeno maslo prilij v posodo z moko
-- moko in maslo dobro premešaj z rokami, nastati mora zmes krhkih mokastih grudic
-- nastalo zmes masla in moke dodaj v posodo k jajcem in sladkorju
-- maso mešaj, dokler se ne sprime in se formira v veliko kepo. Če se kepa ne želi in ne želi formirati lahko dodaš malo mleka.
-- čim se kepa formira posodo pokrij s krpo in pusti, da se ohladi v hladilniku
-- po pol ure jo vzemi iz hladilnika in jo razvaljaj na pol centimetra debelo
-- nato v testo odtisni modelčke. Ko mase zmanka, jo pregneti in ponovi proces.
-- odtisnjene piškote položi na pekač in peci pri temperaturi 180°C 12-15 minut
+- ubijemo jajca v srednje veliko skledo
+- dodamo sladkor in penasto vmešamo
+- v posebni posodi stopimo maslo 
+- stopljeno maslo prilijemo v posodo z moko
+- moko in maslo dobro premešamo z rokami, nastati mora zmes krhkih mokastih grudic
+- nastalo zmes masla in moke dodamo v posodo k jajcem in sladkorju
+- maso mešamo, dokler se ne sprime in se formira v veliko kepo. Če se kepa ne želi formirati lahko dodamo malo mleka.
+- čim se kepa formira posodo pokrijemo s krpo in pustimo, da se ohladi v hladilniku
+- po pol ure jo vzamemo iz hladilnika in jo razvaljamo na pol centimetra debelo
+- nato v testo odtisnemo modelčke. Ko mase zmanka, jo pregnetemo in ponovimo proces.
+- odtisnjene piškote položimo na pekač in pečemo pri temperaturi 180°C 12-15 minut
 
+================================
+
+Naslov: Skutini štruklji
+
+Sestavine:
+
+moka 350 g
+maslo 60 g
+jajca 3 kos
+maslo 60 g
+smetana 3 dlc
+skuta 500 g
+mleko 150 ml
+
+Koraki:
+
+- v skledo damo moko in v njej na sredini naredimo jamico. V jamico zlijemo eno razžvrkljano jajce. Dodoamo stopljeno maslo in prilijemo mleko. 
+- dobro premešamo, dokler ne nastane testo. Nato testo pustimo počivati pol do eno uro. 
+- V novo skledo dodamo skuto, smetano in preostali jajci in dobro premešamo. Na tej točki, lahko po želji dodamo tudi sladkor. 
+- testo razvlečemo po pomokanem prtu
+- testo premažemo z nadevom in ga s pomočjo prta zvijemo
+- natozvitek zavijemo v čisto vlažno krpo ali gazo
+- nato štrukje tako zavite kuhamo v osoljenem kropu 30 do 45 minut
+- na koncu kuhane štruklje narežemo na manjše kose in po želji posujemo s sladkorjem 
 ================================

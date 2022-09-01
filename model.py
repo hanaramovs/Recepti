@@ -5,25 +5,27 @@ from secrets import token_urlsafe
 
 
 class Ingredient:
-    def __init__(self, name, amount, unit):
-        self.name = name
-        self.amount = amount
-        self.unit = unit
 
-    # predpostavimo da so enote vedno enake, torej nas zanima samo
-    # kolicina. 
-    def have_enough(required_ingredient):
-        return Ingredient.amount >= required_ingredient.amount
-        
     def __init__(self, tokens):
-       
-        # Primer liste tokens je recimo ['pecilni', 'prasek', '1/2', 'kos']
+        # Primer liste tokens je ['pecilni', 'prasek', '1/2', 'kos']
         self.name =  ' '.join(tokens[0:-2])
         self.amount = tokens[-2]
         self.unit = tokens [-1]
 
-    def __str__(self):
-        return ' '.join([self.name, self.amount, self.unit])
+    # predpostavimo da so enote vedno enake, torej nas zanima samo
+    # kolicina. 
+
+
+    def __str__(self, required_ingredient):
+        required_ingredient = ' '.join([self.name, self.amount, self.unit])
+        return required_ingredient
+        #vrne listo tokens v obliki string
+
+    # predpostavimo da so enote vedno enake, torej nas zanima samo
+    # kolicina. 
+
+    def have_enough(self, required_ingredient):
+        return self.amount >= required_ingredient.amount
         
 class Recipe:
     def __init__(self, name):
@@ -80,19 +82,20 @@ class Recipe:
         ret += "\nKoraki:\n" + self.instructions + "\n====================\n\n"
         return ret
 
+
 class InputState(Enum):
     OUTSIDE = 1
     IN_INGREDIENTS = 2
     IN_INSTRUCTIONS = 3
         
 class Cookbook:
-    def __init__(self, name):
-        self.name = name
-        self.recipes = []
+    def __init__(self):
+        #self.name = name
+        self.recepies = []
 
     def __str__(self):
         ret = ''
-        for recipe in self.recipes:
+        for recipe in self.recepies:
             ret += str(recipe)
         return ret
 
@@ -105,7 +108,7 @@ class Cookbook:
 
         # "with" sam zapre datoteko ali kaksen
         # drugi resource ko se konca koda v bloku
-        with open(file_name, 'r') as fp:
+        with open(file_name, 'r', encoding="utf-8") as fp:
 
             # preberemo kar vse vrstice
             all_lines = fp.readlines()
@@ -140,7 +143,7 @@ class Cookbook:
                             # konec recepta, dodaj recept v listo in se postavi v zacetno stanje
                             input_state =InputState.OUTSIDE
                             if current_recipe != None:
-                                self.recipes.append(current_recipe)
+                                self.recepies.append(current_recipe)
                                 current_recipe = None
                         else:
                             current_recipe.instructions += line
@@ -149,10 +152,14 @@ class Cookbook:
     def get_doable(self, list_of_ingredients):
 
         response = []      # zacnemo s prazno listo receptov; ce noben ni izvedljiv je to kar odgovor
-        for recipe in self.recipes:
+        for recipe in self.recepies:
             if recipe.is_doable(list_of_ingredients):
                 response.append(recipe)
 
         return response
-    # konec
- 
+
+
+kuharska_knjiga = Cookbook()
+kuharska_knjiga.from_file_read("recepti.txt")
+
+

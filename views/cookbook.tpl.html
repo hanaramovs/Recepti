@@ -5,11 +5,13 @@
         <meta charset="UTF-8">
         <title>Konfigurator receptov</title>
         <link rel="stylesheet" href="cookbook design.css"><link>
+        %import model
+        %print(model.Cookbook().recepies)
     </head>
 
-<ul>
-    %for recepie in self.recepies:
-    <li>recepie.name</li>
+<form action="/recpie/" method="POST">
+    %for recepie in model.kuharska_knjiga.recepies:
+    <li>{{recepie.name}} {{[ingredient.name for ingredient in recepie.get_ingredients()]}}</li>
     %end
-</ul>
+</form>
 </html>
